@@ -1,0 +1,25 @@
+* text=auto
+
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+*.json linguist-language=JSON-with-Comments
+*.neon linguist-language=YAML
+
+*.phar binary
+*.gif binary
+*.ico binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+
+/.github export-ignore
+.editorconfig export-ignore
+.gitattributes export-ignore
+.gitignore export-ignore
+/tests export-ignore
+phpstan.neon export-ignore
+phpunit.xml export-ignore
+psalm.xml.dist export-ignore
+rector.php export-ignore
