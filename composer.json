@@ -26,7 +26,7 @@
         "php": "^8.1|^8.2"
     },
     "require-dev": {
-        "sikessem/devtools": "^0.x-dev"
+        "sikessem/devtools": "^0.0"
     },
     "autoload": {
         "psr-4": {
@@ -39,10 +39,10 @@
         }
     },
     "scripts": {
-        "alter": "psalter --issues=all",
         "analyse": "phpstan analyse --ansi --memory-limit=-1 --debug",
+        "check": "pint --test -v",
         "debug": [
-            "@lint",
+            "@check",
             "@analyse",
             "@inspect",
             "@review",
@@ -55,12 +55,12 @@
         ],
         "fix": [
             "@refactor",
-            "@alter",
-            "@format"
+            "@format",
+            "@lint"
         ],
-        "format": "pint -v",
+        "format": "psalter --issues=all",
         "inspect": "psalm --no-diff",
-        "lint": "pint --test -v",
+        "lint": "pint -v",
         "test": "pest --colors=always",
         "review": "rector --dry-run --debug",
         "refactor": "rector"
@@ -78,6 +78,6 @@
             "pestphp/pest-plugin": true
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
