@@ -1,7 +1,7 @@
 {
     "name": "sikessem/skeleton",
     "description": "📦️ Sikessem library builder template.",
-    "homepage": "https://packagist.com/packages/sikessem/skeleton",
+    "homepage": "https://sikessem.github.io/packages/skeleton",
     "license": "MIT",
     "keywords": [
         "sikessem",

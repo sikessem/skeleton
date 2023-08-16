@@ -15,7 +15,7 @@
 </div>
 
 [sikessem-logo]: https://github.com/sikessem/art/blob/HEAD/images/sikessem.svg
-[sikessem-link]: https://github.com/sikessem "Sikessem"
+[sikessem-link]: https://sikessem.github.io "Sikessem"
 
 [php-icon]: https://img.shields.io/badge/PHP-ccc.svg?style=flat&logo=php
 [php-link]: https://github.com/sikessem/skeleton/search?l=php "PHP code"
@@ -30,16 +30,16 @@
 [actions-link]: https://github.com/sikessem/skeleton/actions "Skeleton status"
 
 [pr-icon]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=brightgreen
-[pr-link]: https://github.com/sikessem/.github/blob/HEAD/CONTRIBUTING.md "PRs welcome!"
+[pr-link]: https://sikessem.github.io/contributions "PRs welcome!"
 
 [twitter-icon]: https://img.shields.io/twitter/follow/sikessem.svg?label=@sikessem_tweets
 [twitter-link]: https://twitter.com/intent/follow?screen_name=sikessem_tweets "Ping Sikessem"
 
 [license-icon]: https://img.shields.io/badge/license-MIT-blue.svg
 [license-link]: https://github.com/sikessem/skeleton/blob/HEAD/LICENSE "Skeleton License"
-[conduct-link]: https://github.com/sikessem/skeleton/blob/HEAD/CODE_OF_CONDUCT.md
-[discuss-link]: https://github.com/orgs/sikessem/discussions
-[docs-link]: https://github.com/sikessem/skeleton#readme "Skeleton Documentation"
+[conduct-link]: https://sikessem.github.io/code-of-conduct "Sikessem's Code of Conduct"
+[discuss-link]: https://github.com/orgs/sikessem/discussions "Sikessem's GitHub discussions"
+[docs-link]: https://sikessem.github.io/packages/skeleton "Skeleton Documentation"
 
 ***
 
@@ -47,96 +47,11 @@
 
 Create a new [Sikessem][sikessem-link] project based on this template.
 
-## 🔖 Contents
-
-- [📦️ Sikessem Skeleton](#️-sikessem-skeleton)
-  - [🔖 Contents](#-contents)
-  - [📋 Requirements](#-requirements)
-  - [🎉 Getting Started](#-getting-started)
-    - [⚡️ Installation](#️-installation)
-    - [🧑‍💻 Usage](#-usage)
-    - [🧪 Testing and debugging](#-testing-and-debugging)
-  - [📖 Documentation](#-documentation)
-  - [👏 Contribution](#-contribution)
-    - [👷 Code of Conduct](#-code-of-conduct)
-    - [👥 Contributing Guide](#-contributing-guide)
-    - [🔒️ Good First Issues](#️-good-first-issues)
-    - [💬 Discussions](#-discussions)
-  - [🔐 Security Reports](#-security-reports)
-  - [📄 License](#-license)
-
-## 📋 Requirements
-
-> - **Requires [PHP 8.1+](https://php.net/releases/)** (at least 8.1.19 recommended to avoid potential bugs).
-> - **Requires [Composer v2+](https://getcomposer.org/)** to manage PHP dependencies.
-
-## 🎉 Getting Started
-
-### ⚡️ Installation
-
-[Use this template](https://github.com/sikessem/skeleton/generate) or create a new [Sikessem][sikessem-link] library via the [Composer](https://getcomposer.org/) `create-project` command (recommended):
-
-```bash
-composer create-project sikessem/skeleton --prefer-source my-lib
-```
-
-### 🧑‍💻 Usage
-
-```php
-<?php
-
-use Sikessem\Skeleton\Program;
-
-$vendor_dir = __DIR__.'/vendor'; // Replace it by your vendor directory
-
-include_once $vendor_dir.'/autoload.php';
-
-Program::main(); // Print "Hello World!"
-```
-
-### 🧪 Testing and debugging
-
-🧹 Keep a modern codebase with **Pint**:
-
-```bash
-composer lint
-```
-
-⚗️ Run static analysis:
-
-- Using **PHPStan**:
-
-```bash
-composer analyse
-```
-
-- Using **Psalm**:
-
-```bash
-composer inspect
-```
-
-✅ Run unit tests using **PEST**
-
-```bash
-composer test
-```
-
-🐛 Check all code bugs:
-
-```bash
-composer debug
-```
-
-🚀 Fix the entire code:
-
-```bash
-composer fix
-```
+[Read the documentation to learn more][docs-link].
 
 ## 📖 Documentation
 
-The full documentation for the Sikessem Skeleton can be found on [this address][docs-link].
+The full documentation for the Sikessem Skeleton can be found [here][docs-link].
 
 ## 👏 Contribution
 
@@ -163,7 +78,7 @@ Larger discussions and proposals are discussed in [**Sikessem's GitHub discussio
 
 ## 🔐 Security Reports
 
-If you discover a security vulnerability within [Sikessem][sikessem-link], please email [SIGUI Kessé Emmanuel](https://sigui.ci) at [contact@sigui.ci](mailto:contact@sigui.ci). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within [any of Sikessem's projects][sikessem-link], please email [SIGUI Kessé Emmanuel](https://sigui.ci) at [contact@sigui.ci](mailto:contact@sigui.ci). All security vulnerabilities will be promptly addressed.
 
 ## 📄 License
 
