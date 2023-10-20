@@ -43,10 +43,7 @@ jobs:
           coverage: pcov
 
       - name: 🍱 Install Composer dependencies
-        uses: ramsey/composer-install@v2
-        with:
-          dependency-versions: ${{ matrix.dependencies }}
-          composer-options: --no-ansi --no-cache --no-interaction --no-scripts --no-progress --prefer-dist
+        run: composer update --${{ matrix.dependency-version }} --no-interaction --prefer-dist
 
       - name: ✅ Check code lint
         run: composer lint
