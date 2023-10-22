@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sikessem\Skeleton\Test\Unit;
+namespace Sikessem\Skeleton\Tests\Unit;
 
 use Sikessem\Skeleton\Program;
 
