@@ -41,6 +41,7 @@
         "analyse": "phpstan analyse --ansi --memory-limit=-1 --debug",
         "check": "pint --test -v",
         "debug": [
+            "@validate",
             "@check",
             "@analyse",
             "@inspect",
@@ -54,6 +55,7 @@
         ],
         "fix": [
             "@refactor",
+            "@sanitize",
             "@format",
             "@lint"
         ],
@@ -62,7 +64,9 @@
         "lint": "pint -v",
         "test": "pest --colors=always",
         "review": "rector --dry-run --debug",
-        "refactor": "rector"
+        "refactor": "rector",
+        "sanitize": "phpinsights fix",
+        "validate": "phpinsights analyse"
     },
     "extra": {
         "branch-alias": {
