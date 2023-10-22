@@ -14,12 +14,6 @@
 *.jpg binary
 *.jpeg binary
 
-/.github export-ignore
-.editorconfig export-ignore
-.gitattributes export-ignore
-.gitignore export-ignore
-/tests export-ignore
-phpstan.neon export-ignore
-phpunit.xml export-ignore
-psalm.xml.dist export-ignore
-rector.php export-ignore
+/src/Program.php export-ignore
+/tests/Feat/ExampleTest.php export-ignore
+/tests/Unit/ProgramTest.php export-ignore
